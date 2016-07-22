@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    margin:0px,0px;
+    margin:0px 0px;
 }
 
 body{
@@ -44,8 +44,7 @@ h1{
 
 .content{
     clear:both;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    padding:15px;
 }
 
 .col{
