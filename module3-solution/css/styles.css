@@ -3,11 +3,14 @@
     text-align: center;
 }
 
-.col-xs-12{
-    height:1000px;
-    background-color: darkred;
+
+section{
+    border-collapse: collapse; 
 }
 
-h3{
-    text-align: center;
+.content{
+        background-color: darkred;
+        padding:10px;
+        height:1000px;
+        margin-bottom: 10px;
 }

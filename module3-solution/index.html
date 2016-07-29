@@ -20,7 +20,7 @@
 
 <body>
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default" id="top">
     <div class="container-fluid">
       <div class="navbar-header">
         <div class="navbar-brand">Food, LLC</div>
@@ -36,29 +36,46 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav visible-xs" id="dropdown">
-          <li><a href="#">Chicken</a></li>
-          <li><a href="#">Beef</a></li>
-          <li><a href="#">Sushi</a></li>
+          <li><a href="#Chicken">Chicken</a></li>
+          <li><a href="#Beef">Beef</a></li>
+          <li><a href="#Sushi">Sushi</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
 
-  <h1 class="text-center" id="top">Our Menu</h1>
-  
-  <section>
-    
-  <div class="container">
-    <div class="col-xs-12">
-        <h3>chicken</h3>
+  <h1 class="text-center">Our Menu</h1>
+
+
+<div class="container">
+<div class="row">
+  <section  id="Chicken" class="col-xs-12  col-sm-6 col-md-4">
+      <div class="content">
+        <h3 class="text-center">Chicken</h3>
         <p>dummy text dummy text dummy text dummy text</p>
         <a href="#top">Back to top</a>
-    </div>
-  </div>
-    </section>
+      </div>
+  </section>
 
-  
+  <section id="Beef" class="col-xs-12  col-sm-6 col-md-4">
+      <div class="content">
+        <h3 class="text-center">Beef</h3>
+        <p>dummy text dummy text dummy text dummy text</p>
+        <a href="#top">Back to top</a>
+      </div>
+  </section>
+
+  <section id="Sushi" class="col-xs-12 col-sm-12  col-md-4">
+      <div class="content">
+        <h3 class="text-center">Sushi</h3>
+        <p>dummy text dummy text dummy text dummy text</p>
+        <a href="#top">Back to top</a>
+      </div>
+  </section>
+  </div><!--end of row-->
+</div><!--end of container-->
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
